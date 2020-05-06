@@ -1,0 +1,52 @@
+.b-artistas-post-header {
+  height: 400px;
+  background-image: url('/assets/images/theatre.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 1);
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.b-artistas-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.b-artistas-main__title {
+  width: 100%;
+}
+
+.b-artistas__card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 3px 7px rgba(0, 0, 0, 0.5);
+  transition: background-color 1s;
+}
+
+.b-artistas__card:hover {
+  background-color: $theatre-primary;
+}
+
+@media (min-width: 768px) {
+  .b-artistas__card {
+    display: inline-block;
+    width: calc(33% - 20px);
+    height: 350px;
+    margin-right: 19px;
+    vertical-align: middle;
+  }
+}
