@@ -7,12 +7,11 @@ import 'bootstrap';
 // import 'some-node-module';
 // import SomeModule from 'some-node-module';
 
+import './nav-effect';
 /**
  * Write any other JavaScript below
  */
 
-
-+( function() {
++(function () {
   console.log('Hello, UOC!');
-} )();
-
+})();

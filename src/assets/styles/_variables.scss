@@ -9,7 +9,6 @@ $font-family-serif: 'Playfair Display', 'Times New Roman', serif;
 $font-family-base: $font-family-sans-serif !default;
 
 $theatre-primary: #bf7463;
-$uoc-masterbrand: #73edff;
 $theatre-light: color.scale($theatre-primary, $lightness: 50%);
 $body-color: #454545;
 
@@ -22,8 +21,6 @@ $theme-colors: (
 
 $colors: (
   'blue': $body-color,
-  'indigo': red,
-  'purple': yellow,
 ) !default;
 
 $link-color: #591b1b;

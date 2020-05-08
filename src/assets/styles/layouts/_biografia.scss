@@ -16,3 +16,26 @@
   color: $Costumes-design-for-opera-5-hex;
   font-size: 45px;
 }
+
+.b-list-bio {
+  width: 100%;
+}
+
+.b-list-bio-item {
+  position: relative;
+}
+
+.e-list-bio__number {
+  position: absolute;
+  font-size: 50px;
+}
+
+.e-list-bio__paragraph {
+  padding-left: 65px;
+}
+
+@media (min-width: 768px) {
+  .b-list-bio {
+    width: 500px;
+  }
+}

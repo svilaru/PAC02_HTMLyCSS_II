@@ -9,9 +9,14 @@
 .b-footer {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+}
+
+.fas,
+.far {
+  font-weight: bold;
 }
 
 .social-icons {
@@ -26,6 +31,18 @@
 
   .b-footer {
     flex-direction: row;
+
+    & .navbar-brand {
+      width: 20%;
+    }
+
+    & .navbar {
+      width: 40%;
+    }
+
+    & div {
+      width: 20%;
+    }
   }
 
   .social-icons {

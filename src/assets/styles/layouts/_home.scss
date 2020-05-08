@@ -52,7 +52,32 @@
 @supports (display: grid) {
   @media (min-width: 768px) {
     .b-header-index {
-      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 9999;
+
+      & .e-header-index__navbar {
+        background-color: transparent !important;
+
+        & a {
+          color: theme-color(light);
+        }
+
+        & .nav-link {
+          color: theme-color(light);
+        }
+
+        & a:hover,
+        .nav-link:hover {
+          color: $theatre-primary;
+        }
+
+        & .is-active {
+          color: $theatre-light !important;
+        }
+      }
     }
 
     .b-main-index {
@@ -78,8 +103,9 @@
     .b-main-title-by {
       padding: 10px;
       width: auto;
+      align-self: center;
       grid-column: 1 / 2;
-      grid-row: 2 / 3;
+      grid-row: 3 / 3;
       z-index: 2;
     }
 

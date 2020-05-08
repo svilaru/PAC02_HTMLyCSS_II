@@ -9,10 +9,10 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
         <a class="navbar-brand" href="#">THT</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler ml-auto mr-1"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -22,7 +22,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse ml-auto mr-1 flex-grow-0" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html"
@@ -65,21 +65,30 @@
 
         <hr class="mt-5 mb-5" />
 
-        <ol>
-          <li>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo.
+        <ol class="list-unstyled b-list-bio">
+          <li class="b-list-bio__item mb-1">
+            <span class="e-list-bio__number">1.</span>
+            <p class="e-list-bio__paragraph">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+              architecto beatae vitae dicta sunt explicabo.
+            </p>
           </li>
-          <li>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo.
+          <li class="b-list-bio__item mb-1">
+            <span class="e-list-bio__number">2.</span>
+            <p class="e-list-bio__paragraph">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+              architecto beatae vitae dicta sunt explicabo.
+            </p>
           </li>
-          <li>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-            architecto beatae vitae dicta sunt explicabo.
+          <li class="b-list-bio__item mb-1">
+            <span class="e-list-bio__number">3.</span>
+            <p class="e-list-bio__paragraph">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+              architecto beatae vitae dicta sunt explicabo.
+            </p>
           </li>
         </ol>
 
@@ -100,7 +109,11 @@
           </p>
         </div>
 
-        <img src="assets/images/kyle-head-p6rNTdAPbuk-unsplash.jpg" class="img-fluid mb-5" />
+        <img
+          src="assets/images/kyle-head-p6rNTdAPbuk-unsplash.jpg"
+          class="img-fluid mb-5"
+          alt="telón de fondo con la silueta de tres artistas"
+        />
 
         <p>
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
@@ -109,20 +122,19 @@
         </p>
       </div>
     </main>
+    <!--footer-->
     <footer class="bg-dark p-3 text-center">
       <div class="b-footer-info text-light">
-        <p class="p-2 m-0"><i class="fas fa-phone"></i> Contact: +34 32233232</p>
-        <p class="p-2 m-0"><i class="far fa-envelope"></i> Email: tht@tht.com</p>
+        <p class="p-2 m-0"><i class="fas fa-phone mr-1"></i> Contact: +34 32233232</p>
+        <p class="p-2 m-0"><i class="far fa-envelope mr-1"></i> Email: tht@tht.com</p>
       </div>
       <hr class="bg-light" />
       <div class="b-footer">
         <a class="navbar-brand text-light m-0" href="#">THT</a>
         <nav class="navbar navbar-expand-lg text-light">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link text-light" href="index.html"
-                >Inicio <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link text-light" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="artistas.html">Artistas</a>

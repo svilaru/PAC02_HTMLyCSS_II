@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
     <!-- do not remove this line! -->
     <title>UOC Boilerplate</title>
   </head>
   <body>
     <header class="b-header-index">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">THT</a>
+      <nav
+        class="navbar navbar-expand-md navbar-light bg-light justify-content-end e-header-index__navbar"
+        id="menu"
+      >
+        <a class="navbar-brand" href="index.html">THT</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler ml-auto mr-1"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -22,10 +26,10 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse ml-auto mr-1 flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav text-right">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html"
+              <a class="nav-link is-active" href="index.html"
                 >Inicio <span class="sr-only">(current)</span></a
               >
             </li>
@@ -48,10 +52,14 @@
           <h1 class="e-main-title text-center">El Huérfano del clan de los Zhao</h1>
           <p class="e-main-by text-primary text-center">By Ji Junxiang</p>
         </div>
-        <img class="img-fluid e-main-img" src="assets/images/29_huerfano_zhao_2_land.jpg" />
+        <img
+          class="img-fluid e-main-img"
+          src="assets/images/29_huerfano_zhao_2_land.jpg"
+          alt="Illustración de un huérfano del clan"
+        />
         <div lang="zh" class="display-1 b-box-symbol text-light">赵</div>
         <div class="b-box-calendar bg-light text-center">
-          <h2>Calendario</h2>
+          <h2>Agenda</h2>
           <ul class="b-events-list list-unstyled">
             <li class="e-events-list__item">22/09/2020</li>
             <li class="e-events-list__item">29/09/2020</li>
@@ -61,27 +69,26 @@
         <div class="b-box-artists bg-light text-center">
           <h2>Artistas</h2>
           <ul class="artistas-list list-unstyled">
-            <li class="artistas-list__item-list">Perico Flauta</li>
-            <li class="artistas-list__item-list">Rodrigo Maldivas</li>
-            <li class="artistas-list__item-list">Federico Rivas</li>
+            <li class="artistas-list__item-list">Cheng Ying</li>
+            <li class="artistas-list__item-list">Tu’an Ku</li>
+            <li class="artistas-list__item-list">Han Jue</li>
           </ul>
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="bg-dark p-3 text-center">
       <div class="b-footer-info text-light">
-        <p class="p-2 m-0"><i class="fas fa-phone"></i> Contact: +34 32233232</p>
-        <p class="p-2 m-0"><i class="far fa-envelope"></i> Email: tht@tht.com</p>
+        <p class="p-2 m-0"><i class="fas fa-phone mr-1"></i> Contact: +34 32233232</p>
+        <p class="p-2 m-0"><i class="far fa-envelope mr-1"></i> Email: tht@tht.com</p>
       </div>
       <hr class="bg-light" />
       <div class="b-footer">
         <a class="navbar-brand text-light m-0" href="#">THT</a>
         <nav class="navbar navbar-expand-lg text-light">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link text-light" href="index.html"
-                >Inicio <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link text-light" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="artistas.html">Artistas</a>
