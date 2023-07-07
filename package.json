@@ -39,7 +39,7 @@
     "prettier": "^2.0.5",
     "rimraf": "^2.7.1",
     "sass": "^1.25.0",
-    "stylelint": "^13.3.3",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
